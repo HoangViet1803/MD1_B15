@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ứng dụng quản lý sản phẩm</title>
+<!--Bootstrap-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/css/bootstrap.min.css">
+<!--  Font awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+<!--  CSS-->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h2>Add New Product</h2>
+<input type="text" name="newProduct" id="new" placeholder="New Product">
+<button type="button" class="btn btn-primary" disabled id="add">Add</button>
+<h3>Display All product</h3>
+<div class="display">
+  <div class="display_head">
+    <strong class="productName">Product Name</strong>
+    <span id="amount"></span>
+  </div>
+  <div class="product">
+<!--    <div class="product_item">-->
+<!--      <span id="nameProduct${i}" data-index="${i}">${arr[i]}</span>-->
+<!--      <div class="button_handle">-->
+<!--        <button type="button" class="btn btn-warning btn-edit" onclick="editProduct(event)">Edit</button>-->
+<!--        <button type="button" class="btn btn-danger btn-delete" >Delete</button>-->
+<!--      </div>-->
+<!--    </div> <hr>-->
+  </div>
+</div>
+
+
+<!--Bootstrap js-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/js/bootstrap.min.js"></script>
+<!--JS-->
+<script src="main.js"></script>
+</body>
+</html>

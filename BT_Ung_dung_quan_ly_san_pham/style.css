@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: auto;
+    max-width: 1200px;
+}
+#new {
+    width: 500px;
+    height: 40px;
+    padding-left: 20px;
+}
+h3{
+    margin-top: 30px;
+}
+.display_head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.product_item{
+    display: flex;
+    justify-content: space-between;
+    margin: 3px 0;
+}
+.button_handle button:first-child{
+    margin-right: 20px;
+}
